@@ -1,0 +1,1 @@
+print("Linearit 100")
