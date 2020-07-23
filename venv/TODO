@@ -1,0 +1,16 @@
+BSD
+
+1. tarain_loader
+
+2.Class Net
+
+3.optimizer
+
+4.criterion (loss function)
+
+5.main training loop
+
+6.test loop - fitness function F0.25
+
+7. evolutionary function
+

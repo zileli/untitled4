@@ -5,7 +5,7 @@ import torch.nn.functional as F
 import torch.optim as optim
 from torchvision import datasets, transforms
 from torch.autograd import Variable
-
+""""
 def simple_gradient():
     # print the gradient of 2x^2 + 5x
     x = Variable(torch.ones(2, 2) * 2, requires_grad=True)
@@ -13,7 +13,7 @@ def simple_gradient():
     # run the backpropagation
     z.backward(torch.ones(2, 2))
     print(x.grad)
-
+"""
 
 def create_nn(batch_size=200, learning_rate=0.01, epochs=10,
               log_interval=10):
